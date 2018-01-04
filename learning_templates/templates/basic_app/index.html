@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+	{% block body_block %}
+
+		<h1>WELCOME TO INdex!</h1>
+		<H3>INHERETED</H3>
+		{{ name|cut:"h" }}
+		<br>
+		{{ num|add:"100" }}
+		{% endblock %}
